@@ -159,12 +159,13 @@ header {
     -o-transition:all 1s;
     width: 340px;
     height: 500px;
-    background-color: #636e72;
+    background-color:#2d3436;
     transform-style: preserve-3d;
     background-size: 90% 50%;
     background-position: top;
     background-repeat: no-repeat;
     box-shadow: 0 0 7px 0 #080707;
+    color: white;
 }
 
 .container li h3 {
@@ -174,16 +175,16 @@ header {
 }
 
 p {
-    padding: 0 10px;
+    padding: 0 16px;
     font-size: 16px;
     font-family: serif;
-    line-height: 28px;
+    line-height: 1.5;
     text-indent: 30px
 }
 
 p a {
     color: white;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
 
 p a:hover {
